@@ -1,1 +1,2 @@
 # KnightL-on-a-Chessboard
+This code solves the KnightL on a Chessboard problem by finding the minimum moves for all possible knight movement types (a,b) on an n×n board. It performs BFS for each (a,b) combination to find the shortest path from (0,0) to (n-1,n-1) using the eight possible knight moves. The algorithm returns a matrix where each entry represents the minimum moves for that knight type, or -1 if the destination is unreachable.
